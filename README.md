@@ -4,6 +4,7 @@ Implementation of a program to generate a color quantized image for an input ima
 **Requirements**
 Input image file (square size, .ppm format)
 Factor value (2, 4, 8, or 16)
+
 ****Usage****
 **Input Image Selection:**
 
@@ -11,6 +12,7 @@ Enter the input image file name including its square size in .ppm format when pr
 **Factor Value:**
 
 Enter the factor value for color quantization (2, 4, 8, or 16) when prompted.
+
 **Program Execution**:
 
 The program performs the following steps:
@@ -23,7 +25,9 @@ Writes the resulting output image in .ppm format using 'WritePPM'.
 
 **Output:**
 The program generates an output image file named 'out.ppm' as a result of color quantization.
+
 **Color Quantization Rules******
+
 **Factor Value 2 (8-colors):**
 
 **Quantized value:**
